@@ -1,0 +1,131 @@
+/* Header */
+header {
+    background-color: transparent;
+    position: static;
+    color: white;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: #000;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.boton-enviar{
+    padding: 10px 20px;
+    margin: 1em;
+    border-radius: 20px;
+    border: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    color: aqua;
+    text-decoration: underline;
+    cursor: pointer;
+    text-decoration: none;
+}
+/* Main section styles*/
+body {
+    background-color: #000;
+    color: white;
+}
+/*Perfil*/
+.container-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4.5cm;
+    margin-bottom: 4.5cm;
+    flex-wrap: wrap;
+}
+.seccion{
+    margin-bottom: 4.5cm;
+}
+.foto-perfil{
+    border-radius: 100px;
+    width: 300px;
+    height: 300px;
+}
+.texto{
+    color:white ;
+    text-align: center;
+    margin-left:  15px;
+    width: 300px;
+    font-size: larger;
+    text-decoration: none;
+    font-family: 'Zilla Slab', serif;
+}
+.titulo{
+    text-align: center;
+    font-size: 65px;
+    font-family: 'Cinzel', serif;
+}
+.titulo2{
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Cinzel', serif;
+}
+.download-button {
+    background-color: transparent;
+    border-color: aqua;
+    border-radius: 25px;
+    padding: 15px 32px;
+    margin-left: 55px;
+    font-size: 16px;
+}
+.download-button:hover {
+    background-color: rgb(38, 38, 38);
+}
+.download-button .titulo{
+    color: aqua;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+}
+/*Proyectos*/
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 18rem;
+    height: 24rem;
+    border: 1px solid aqua;
+    border-radius: 5px;
+    margin: 1rem;
+    background-color:transparent;
+}
+.card .proyecto {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: aqua;
+    margin-top: 25px;
+}
+.card .imagen {
+    width: 90%;
+    height: 15rem;
+}
+/*Habilidades*/
+.seccion-habilidades{
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    flex-wrap: wrap;
+}
+.habilidades{
+    text-decoration: none;
+    list-style-type: none;
+    font-size: large;
+    font-family: 'Zilla Slab', serif;
+}
+
